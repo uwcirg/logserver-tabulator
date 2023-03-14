@@ -1,0 +1,8 @@
+---
+version: "3.8"
+services:
+  logserver_tabulator:
+    build:
+      context: .
+    env_file:
+      - logserver_tabulator.env

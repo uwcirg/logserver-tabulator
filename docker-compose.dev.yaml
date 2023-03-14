@@ -1,0 +1,8 @@
+---
+version: "3.8"
+services:
+  logserver_tabulator:
+    environment:
+      FLASK_APP: "logserver_tabulator/app:create_app()"
+      FLASK_ENV: development
+    command: flask run --host 0.0.0.0

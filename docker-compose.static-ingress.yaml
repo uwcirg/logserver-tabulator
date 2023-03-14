@@ -1,0 +1,9 @@
+# docker-compose override to expose web container port (80) to local VM
+# listens on the local VM at http://localhost:${EXTERNAL_PORT}
+---
+version: "3.9"
+services:
+  logserver_tabulator:
+    ports:
+      # allow override of published port
+      - 127.0.0.1:${P_PORT:-5000}:5000
