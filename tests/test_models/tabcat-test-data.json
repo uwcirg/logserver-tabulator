@@ -1,0 +1,223 @@
+{
+    "asctime": 1234512,
+    "levelname": "INFO",
+    "name": "pro",
+    "tags": "tabcat_detailed",
+    "message": {
+        "patientID": 142,
+        "projectID": 1,
+        "sessionID": "a43jk3423k",
+        "tabcat_json": {
+
+            "id": "ac57a8cada65a3f232d9c3cfdd7c5992",
+            "type": "task",
+            "browser": {
+                "screenHeight": 1080,
+                "screenWidth": 1920,
+                "userAgent": "Mozilla/5.0(Macintosh;IntelMacOSX10_15_7)AppleWebKit/537.36(KHTML,likeGecko)Chrome/101.0.4951.64Safari/537.36"
+            },
+            "clockLastStarted": 0,
+            "encounterId": "419f2cc1fdd7b0941959251faf5ff4a1",
+            "version": "1.0.0",
+            "versionDate": "2016-0",
+            "form": "B",
+            "language": "English",
+            "scores": [
+                {
+                    "title": "TotalCorrect",
+                    "reportField": "CorrectTotal",
+                    "value": 10
+                },
+                {
+                    "title": "TotalErrors",
+                    "reportField": "ErrorTotal",
+                    "lowScore": true,
+                    "value": 0
+                }
+            ],
+            "name": "number-picture",
+            "taskId": "numberPicture",
+            "fullName": "Match",
+            "domain": "executiveFunction",
+            "patientCode": 1653502319120,
+            "patientQueryInfo": {
+                "patientId": "",
+                "surveySessionId": "17405",
+                "returnURL": "https://cnics-devel.cirg.washington.edu/pbm/devel-amy/aa-survey.php?sessionID=17405&questionnaireID=18&questionnaireID=221&pageID=1452&adv=auto",
+                "logURL": "https://cnics-devel.cirg.washington.edu/pbm/devel-amy/api.post.tabcat.detailed.php"
+            },
+            "sessionId": "17405",
+            "start": "/tasks/number-picture/number-picture.html?log_url=https://cnics-devel.cirg.washington.edu/pbm/devel-amy/api.post.tabcat.detailed.php&sessionID=17405&return_url=https%3A%2F%2Fcnics-devel.cirg.washington.edu%2Fpbm%2Fdevel-amy%2Faa-survey.php%3FsessionID%3D17405%26questionnaireID%3D18%26questionnaireID%3D221%26pageID%3D1452%26adv%3Dauto",
+            "startedAt": "2022-05-25T18:17:03.423Z",
+            "startViewport": {
+                "left": 0,
+                "top": 0,
+                "width": 1254,
+                "height": 742
+            },
+            "finishedAt": "2022-05-25T18:19:25.911Z",
+            "eventLog": [
+                {
+                    "now": 13148,
+                    "interpretation": {
+                        "choice": 3,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 0,
+                        "stimuli": 3,
+                        "trialNum": 1,
+                        "practiceMode": true
+                    }
+                },
+                {
+                    "now": 16452,
+                    "interpretation": {
+                        "choice": 5,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 0,
+                        "stimuli": 5,
+                        "trialNum": 2,
+                        "practiceMode": true
+                    }
+                },
+                {
+                    "now": 21787,
+                    "interpretation": {
+                        "choice": 7,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 1,
+                        "stimuli": 7,
+                        "trialNum": 3,
+                        "secondsSinceStart": 0
+                    }
+                },
+                {
+                    "now": 24823,
+                    "interpretation": {
+                        "choice": 6,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 2,
+                        "stimuli": 6,
+                        "trialNum": 4,
+                        "secondsSinceStart": 3.036
+                    }
+                },
+                {
+                    "now": 27748,
+                    "interpretation": {
+                        "choice": 3,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 3,
+                        "stimuli": 3,
+                        "trialNum": 5,
+                        "secondsSinceStart": 5.961
+                    }
+                },
+                {
+                    "now": 29820,
+                    "interpretation": {
+                        "choice": 1,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 4,
+                        "stimuli": 1,
+                        "trialNum": 6,
+                        "secondsSinceStart": 8.033
+                    }
+                },
+                {
+                    "now": 32327,
+                    "interpretation": {
+                        "choice": 3,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 5,
+                        "stimuli": 3,
+                        "trialNum": 7,
+                        "secondsSinceStart": 10.54
+                    }
+                },
+                {
+                    "now": 36118,
+                    "interpretation": {
+                        "choice": 4,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 6,
+                        "stimuli": 4,
+                        "trialNum": 8,
+                        "secondsSinceStart": 14.331
+                    }
+                },
+                {
+                    "now": 38830,
+                    "interpretation": {
+                        "choice": 2,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 7,
+                        "stimuli": 2,
+                        "trialNum": 9,
+                        "secondsSinceStart": 17.043
+                    }
+                },
+                {
+                    "now": 42641,
+                    "interpretation": {
+                        "choice": 4,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 8,
+                        "stimuli": 4,
+                        "trialNum": 10,
+                        "secondsSinceStart": 20.854
+                    }
+                },
+                {
+                    "now": 45411,
+                    "interpretation": {
+                        "choice": 6,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 9,
+                        "stimuli": 6,
+                        "trialNum": 11,
+                        "secondsSinceStart": 23.624
+                    }
+                },
+                {
+                    "now": 47593,
+                    "interpretation": {
+                        "choice": 7,
+                        "correct": true
+                    },
+                    "state": {
+                        "numberCorrect": 10,
+                        "stimuli": 7,
+                        "trialNum": 12,
+                        "secondsSinceStart": 25.806
+                    }
+                }
+            ],
+            "patientPercentiles": [
+                "0",
+                "null"
+            ]
+        }
+    }
+}
