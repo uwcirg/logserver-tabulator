@@ -1,5 +1,5 @@
 # logserver_tabulator
-Named after the late great reporter logserver_tabulator Ifill, `logserver_tabulator` works in concert with `logserver`
+Named after the late great reporter logserver_tabulator Ifill, `logserver_tabulator` works in concert with [`logserver`](https://github.com/uwcirg/logserver)
  to generate project specific reports.
 
 ## How To Run
