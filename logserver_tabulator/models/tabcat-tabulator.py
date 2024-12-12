@@ -20,7 +20,7 @@ import pandas as pd
 
 TEST = True
 TEST_FILE = "tabcat-test-data.json"
-LOGSERVER_URL = "https://logs.acc.dev.cosri.cirg.washington.edu/events?select=event&event-%3E%3Etags=eq.tabcat_detailed"
+LOGSERVER_URL = "https://logs.acc.dev.cosri.cirg.washington.edu/events?select=event&event-%3Etags=eq.%22tabcat_detailed%22"
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.']
